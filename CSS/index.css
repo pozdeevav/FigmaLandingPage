@@ -1,0 +1,221 @@
+body {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+
+    font-family: 'Lato', sans-serif;
+}
+
+.Header {
+    width: 940px;
+    margin: auto;
+}
+
+.HeaderButtons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.HeaderButton {
+    font-size: 18px;
+}
+
+.HeaderButton:hover {
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.HeaderLine {
+    padding-top: 30px;
+}
+
+.Naming {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    width: 940px;
+    margin: auto;
+}
+
+.Name {
+    font-weight: 700;
+    font-size: 48px;
+    text-align: left;
+}
+
+.Profession {
+    padding-top: 48px;
+}
+
+.Language {
+    padding-top: 48px;
+    transform: rotate(-90deg);
+    font-weight: 300;
+}
+
+.LanguageText:hover {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.LanguageLine { 
+    font-weight: 700;
+}
+
+.HeaderPhoto {
+    width: 940px;
+    padding-top: 50px;
+    min-width: 940px;
+    padding-bottom: 105px;
+    margin: auto;
+}
+
+.HeaderPhotoImg {
+    min-width: 940px;
+}
+
+.AboutMe {
+    background-color: rgb(238, 238, 238);
+    padding-top: 120px;
+    padding-bottom: 105px;
+    text-align: center;
+}
+
+.AboutMeHeader {
+    font-size: 34px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.AboutMeText {
+    max-width: 485px;
+    margin: auto;
+}
+
+.AboutMeTextA {
+    max-width: 485px;
+    text-align: center;
+}
+
+.Skills {
+    padding-top: 90px;
+    padding-bottom: 110px;
+}
+
+.SkillsHeader {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.SkillsText {
+    padding-top: 70px;
+}
+
+.SkillsImages {
+    width: 940px;
+
+    margin: auto;
+
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.SkillsImgText {
+    padding-top: 25px;
+}
+
+.SkillsImgStars {
+    padding-top: 40px;
+}
+
+.Portfolio {
+    padding-top: 110px;
+    background-color: rgb(238, 238, 238);
+}
+
+.PortfolioHeader {
+    font-size: 34px;
+    font-weight: 700;
+
+    padding-bottom: 50px;
+}
+
+.PortfolioImg {
+    padding-bottom: 100px;
+}
+
+.PortfolioText {
+    padding-top: 40px;
+
+    text-decoration: underline;
+}
+
+.Contacts {
+    padding-top: 110px;
+}
+
+.ContactsHeader {
+    font-size: 34px;
+    font-weight: 700;
+
+    padding-bottom: 50px;
+}
+
+.ContactsButton {
+    padding-top: 40px;
+}
+
+.ContactsButtonSend {
+    background-color: black;
+
+    color: white;
+
+    width: 180px;
+
+    margin: auto;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    border-radius: 30px;
+    border: 2px solid black;
+
+    font-weight: 700;
+
+    transition: 0.5s;
+}
+
+.ContactsButtonSend:hover {
+    cursor: pointer;
+
+    background-color: white;
+    color: black;
+
+    border: 2px solid black;
+
+    transition: 0.5s;
+}
+
+.ContactsButtonsSocial {
+    width: 350px;
+
+    padding-top: 100px;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin: auto;
+}
+
+.ContactsButtonSocial:hover {
+    cursor: pointer;
+}
+
+.ContactsTextDown {
+    padding-top: 45px;
+    padding-bottom: 120px;
+
+    color: gray;
+}
